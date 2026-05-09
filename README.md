@@ -27,20 +27,20 @@ Producer → Kafka → Consumer → PostgreSQL → API
 
 ##  Producer Execution
 Node.js producer sends json data every second 
-[producer.js ](img/producer.png)
+![producer.js](img/producer.png)
 
 ## Consumer Execution
 Consumer reads messages from Kafka topic
-[consumer.js ]!(img/consumer.png)
+![consumer.js ](img/consumer.png)
 ## PostgresSQL storage 
 Messages are stored in kafka_messages 
-[kafka_messages]!(postgres.png)
+![kafka_messages](postgres.png)
 ## Api testing 
 An Express.js API was created to expose stored messages.
 ### GET all messages : 
 http://localhost:3000/messages
-[mssages]!(img/messages.png)
+![mssages](img/messages.png)
 ### GET message by ID : 
 http://localhost:3000/messages/:id
-[mssages/id]!(img/msgsid.png)
+![mssages/id](img/msgsid.png)
 
