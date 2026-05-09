@@ -34,7 +34,7 @@ Consumer reads messages from Kafka topic
 ![consumerjs ](img/consumerjs.png)
 ## PostgresSQL storage 
 Messages are stored in kafka_messages 
-![postgres](postgres.png)
+![postgres](img/postgres.png)
 ## Api testing 
 An Express.js API was created to expose stored messages.
 ### GET all messages : 
